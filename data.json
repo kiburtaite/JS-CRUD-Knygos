@@ -1,0 +1,138 @@
+[
+    {
+    "id": 1,
+    "virselis": "pics/pilis.webp",
+    "pavadinimas": "Pilis",
+    "autorius": "Franz Kafka",
+    "leidykla": "Tyto alba",
+    "leidimo_metai": 2006,
+    "puslapiu_skaicius": 368,
+    "temos": ["Grožinė literatūra", "Klasika"]
+    },{
+    "id": 2,
+    "virselis": "pics/meile_ir_valia.jpg",
+    "pavadinimas": "Meilė ir valia",
+    "autorius": "Rollo May",
+    "leidykla": "Vaga",
+    "leidimo_metai": 2010,
+    "puslapiu_skaicius": 416,
+    "temos": ["Dalykinė literatūra", "Psichologija", "Filosofija"]
+    },{
+    "id": 3,
+    "virselis": "pics/kvepalai.webp",
+    "pavadinimas": "Kvepalai. Vieno žudiko istorija",
+    "autorius": "Patrick Süskind",
+    "leidykla": "Alma littera",
+    "leidimo_metai": 2012,
+    "puslapiu_skaicius": 240,
+    "temos": ["Grožinė literatūra"]
+    },{
+    "id": 4,
+    "virselis": "pics/nerimas.webp",
+    "pavadinimas": "Nerimas. Klajonės po modernujį Aš",
+    "autorius": "Finn Skårderud",
+    "leidykla": "Tyto alba",
+    "leidimo_metai": 2010,
+    "puslapiu_skaicius": 504,
+    "temos": ["Dalykinė literatūra", "Psichologija", "Eseistika"]
+    },{
+    "id": 5,
+    "virselis": "pics/terapijos_dovana.webp",
+    "pavadinimas": "Terapijos dovana",
+    "autorius": " Irwin D. Yalom",
+    "leidykla": "Alma littera",
+    "leidimo_metai": 2010,
+    "puslapiu_skaicius": 256,
+    "temos": ["Dalykinė literatūra", "Psichologija"]
+    },{
+    "id": 6,
+    "virselis": "pics/maldororo_dovana.jpg",
+    "pavadinimas": "Maldororo giesmės",
+    "autorius": "Lautréamont",
+    "leidykla": "Kitos knygos",
+    "leidimo_metai": 2015,
+    "puslapiu_skaicius": 336,
+    "temos": ["Grožinė literatūra", "Klasika", "Poezija"]
+    },{
+    "id": 7,
+    "virselis": "pics/silva_rerum.jpeg",
+    "pavadinimas": "Silva Rerum",
+    "autorius": "Kristina Sabaliauskaitė",
+    "leidykla": "Baltos lankos",
+    "leidimo_metai": 2015,
+    "puslapiu_skaicius": 288,
+    "temos": ["Grožinė literatūra", "Istorinis romanas"]
+    },{
+    "id": 8,
+    "virselis": "pics/tamsus_nakties_paukstis.webp",
+    "pavadinimas": "Tamsus nakties paukštis",
+    "autorius": "José Donoso",
+    "leidykla": "Tyto alba",
+    "leidimo_metai": 2002,
+    "puslapiu_skaicius": 488,
+    "temos": ["Grožinė literatūra"]
+    },{
+    "id": 9,
+    "virselis": "pics/golemas.webp",
+    "pavadinimas": "Gustav Meyrink",
+    "autorius": "Golemas",
+    "leidykla": "Tyto alba",
+    "leidimo_metai": 2005,
+    "puslapiu_skaicius": 256,
+    "temos": ["Grožinė literatūra", "Klasika"]
+    },{
+    "id": 10,
+    "virselis": "pics/idiotas.webp",
+    "pavadinimas": "Idiotas",
+    "autorius": "Fyodor Dostoevsky",
+    "leidykla": "Marigi raštai",
+    "leidimo_metai": 2003,
+    "puslapiu_skaicius": 680,
+    "temos": ["Grožinė literatūra", "Klasika"]
+    },{
+    "id": 11,
+    "virselis": "pics/tvarkingu_namu_stebuklas.jpg",
+    "pavadinimas": "Tvarkingų namų stebuklas",
+    "autorius": "Marie Kondo",
+    "leidykla": "Vaga",
+    "leidimo_metai": 2016,
+    "puslapiu_skaicius": 2016,
+    "temos": ["Dalykinė lietratūra", "Patarimai"]
+    },{
+    "id": 12,
+    "virselis": "pics/psichoanalitine_diagnostika.jpg",
+    "pavadinimas": "Nancy McWillliams",
+    "autorius": "Psichoanalitinė diagnostika",
+    "leidykla": "Vaistų žinios",
+    "leidimo_metai": 2014,
+    "puslapiu_skaicius": 388,
+    "temos": ["Dalykinė lietratūra", "Psichologija"]
+    },{
+    "id": 13,
+    "virselis": "pics/arabiskasis_kosmaras.webp",
+    "pavadinimas": "Robert Irwin",
+    "autorius": "Arabiškasis košmaras",
+    "leidykla": "Tyto alba",
+    "leidimo_metai": 2005,
+    "puslapiu_skaicius": 388,
+    "temos": ["Grožinė literatūra"]
+    },{
+    "id": 14,
+    "virselis": "pics/piktybes_geles.jpep",
+    "pavadinimas": "Piktybės gėlės",
+    "autorius": "Charles Baudelaire",
+    "leidykla": "Lietuvos rašytojų sąjungos leidykla",
+    "leidimo_metai": 2005,
+    "puslapiu_skaicius": 264,
+    "temos": ["Grožinė lieratūra", "Poezija", "Klasika"]
+    },{
+    "id": 15,
+    "virselis": "pics/sinuhe_egiptietis.jpg",
+    "pavadinimas": "Sinuhė Egiptietis",
+    "autorius": "Mika Waltari",
+    "leidykla": "Tyto alba",
+    "leidimo_metai": 1997,
+    "puslapiu_skaicius": 576,
+    "temos": ["Grožinė lietratūra", "Istorinis romanas"]
+    }
+]

@@ -5,12 +5,14 @@ fetch("data.json")
 const showbooks = (book) => {
     book.forEach(book => {
         document.querySelector("#books").innerHTML +=
-        `<img src="${book.virselis}">
+        `<div>
+        <img src="${book.virselis}">
         <p>Autorius: ${book.autorius}</p>
         <p>Pavadinimas: ${book.pavadinimas}</p>
         <p>Leidykla: ${book.leidykla}</p>
         <p>Leidimo metai: ${book.leidimo_metai} m.</p>
         <p>Puslapių skaičius: ${book.puslapiu_skaicius} psl.</p>
-        <p>Temos: ${book.temos} </p>`
+        <p>Temos: ${book.temos} </p>
+        </div>`
     })
 }

@@ -24,6 +24,17 @@ section{
     width: 70%;
     margin: 0 auto;
     background-color: rgba(255,255,255, 0.7);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+section div{
+    padding: 50px;
+}
+
+img{
+    height: 450px
 }
 
 footer{

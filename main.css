@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-image: url("pics/open-book-icon-seamless-vector-pattern-580x580.jpg");
+}
+
+header{
+    background-image: url("pics/books_g1016740944.jpg");
+    height: 200px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+h1 {
+    color: rgb(104, 255, 255);
+    margin: 0px;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black;
+}
+
+section{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255, 0.7);
+    height: 80vh;
+}
+
+footer{
+    background-image: url("pics/books_g1016740944.jpg");
+    height: 95px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: rgb(104, 255, 255);
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black;
+}

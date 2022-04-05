@@ -18,7 +18,7 @@ const showbooks = (book) => {
     })
 }
 
-document.querySelector("#addbookform").addEventListener("submit", e => {
+document.querySelector("#addbook").addEventListener("submit", e => {
     e.preventDefault();
     let autorius = e.target.elements.autorius.value;
     let pavadinimas = e.target.elements.pavadinimas.value;
@@ -26,5 +26,22 @@ document.querySelector("#addbookform").addEventListener("submit", e => {
     let metai = e.target.elements.metai.value;
     let puslapiai = e.target.elements.puslapiai.value;
     let virselis = e.target.elements.virselis.value;
-    console.log(autorius, pavadinimas, leidykla, metai, puslapiai, virselis)
+    let temos = e.target.elements.temos.value;
+    console.log(autorius, pavadinimas, leidykla, metai, puslapiai, temos, virselis);
+    fetch("http://localhost:3000/knygos", {
+        method: "POST",
+        headers : {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json"
+          },
+        body: JSON.stringify({
+            virselis: virselis,
+            pavadinimas: pavadinimas,
+            autorius: autorius,
+            leidykla: leidykla,
+            leidimo_metai: metai,
+            puslapiu_skaicius: puslapiai,
+            temos: temos
+        })
+    })
 })

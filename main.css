@@ -37,6 +37,18 @@ img{
     height: 450px
 }
 
+#addbookform{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+form h1{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
 footer{
     background-image: url("pics/books_g1016740944.jpg");
     height: 95px;

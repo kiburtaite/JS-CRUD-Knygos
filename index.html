@@ -13,9 +13,9 @@
         <h1>Mėgstamų knygų sąrašas</h1>
     </header>
     <section id="books">
-        <form id="addbook">
+        <div>
             <h1>Pridėti naują knygą</h1>
-            <div id="addbookform">
+            <form id="addbookform">
                 <label for="autorius">Knygos autorius(-iai)</label>
                 <input type="text" name="autorius" id="autorius"></input>
                 <label for="pavadinimas">Knygos pavadinimas</label>
@@ -28,11 +28,11 @@
                 <input type="number" name="puslapiai" id="puslapiai" min="0"></input>
                 <label for="temos">Temos ir žanrai</label>
                 <input type="text" name="temos" id="temos"></input>
-                <label for="vieselis">Pridėti viršelį</label>
+                <label for="virselis">Pridėti viršelį</label>
                 <input type="file" accept="image/*" name="virselis" id="virselis"></input>
-                <button type="submit">Pridėti knygą</button>
-            </div>
-        </form>
+                <input type="submit" value="Pridėti knygą"></input>
+            </form>
+        </div>
     </section>
     <footer>
         <p>Gabija Kiburtaitė &#169 2022</p>

@@ -1,4 +1,4 @@
-[
+{"knygos": [
     {
     "id": 1,
     "virselis": "pics/pilis.webp",
@@ -135,4 +135,4 @@
     "puslapiu_skaicius": 576,
     "temos": ["Grožinė lietratūra", "Istorinis romanas"]
     }
-]
+]}

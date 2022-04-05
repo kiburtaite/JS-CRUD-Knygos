@@ -1,4 +1,5 @@
-fetch("data.json")
+//fetch("data.json")
+fetch("http://localhost:3000/knygos")
 .then(res => res.json())
 .then(data => showbooks(data));
 
@@ -16,3 +17,14 @@ const showbooks = (book) => {
         </div>`
     })
 }
+
+document.querySelector("#addbookform").addEventListener("submit", e => {
+    e.preventDefault();
+    let autorius = e.target.elements.autorius.value;
+    let pavadinimas = e.target.elements.pavadinimas.value;
+    let leidykla = e.target.elements.leidykla.value;
+    let metai = e.target.elements.metai.value;
+    let puslapiai = e.target.elements.puslapiai.value;
+    let virselis = e.target.elements.virselis.value;
+    console.log(autorius, pavadinimas, leidykla, metai, puslapiai, virselis)
+})

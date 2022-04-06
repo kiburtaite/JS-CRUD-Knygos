@@ -14,9 +14,24 @@ const showbooks = (book) => {
         <p>Leidimo metai: ${book.leidimo_metai} m.</p>
         <p>Puslapių skaičius: ${book.puslapiu_skaicius} psl.</p>
         <p>Temos: ${book.temos} </p>
-        </div>`
+        </div>
+        <button class="edit">Redaguoti informaciją apie knygą</button>
+        <button class="delete">Ištrinti knygą</button>
+        </div>`;
+        })
+        document.querySelectorAll(".delete").forEach(button => {
+            button.addEventListener("click", () => {
+            console.log(book.id);
+            //deletebook(book.id)
+        })
     })
 }
+
+const deletebook = (id) => {
+    fetch(`http://localhost:3000/knygos/${id}`, {
+      method : "DELETE"
+    })
+  }
 
 document.querySelector("#addbook").addEventListener("submit", e => {
     e.preventDefault();
